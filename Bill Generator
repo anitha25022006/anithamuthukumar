@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int p=sc.nextInt();
+        int pu=sc.nextInt();
+        int c=sc.nextInt();
+        int Total =(p*100)+(pu*20)+(c*10);
+        System.out.println("Bill Details");
+        System.out.println("No of pizzas:"+p);
+        System.out.println("No of puffs:"+pu);
+        System.out.println("No of cooldrinks:"+c);
+        System.out.println("Total price="+Total);
+        System.out.println("ENJOY THE SHOW!!!");
+        
+    }
+}
