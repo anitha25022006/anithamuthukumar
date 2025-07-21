@@ -1,0 +1,36 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int balance=sc.nextInt();
+        int op=sc.nextInt();
+        int amount;
+        switch (op)
+            {
+                case 1:
+                   amount=sc.nextInt();
+                     System. out .print(balance+amount );
+                 
+                     break;
+               case 2:
+                  amount=sc.nextInt();
+                  if (balance <amount ){
+                      System. out. println ("Insufficient Balance");
+                  }
+                  else
+                       System .out .print(balance -amount );
+                  break;
+              default:
+                 System. out .println ("Invalid Input");   
+             }
+       
+        }
+    }
+                
+        
+            
+        
