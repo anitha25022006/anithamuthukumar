@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc=new Scanner(System.in);
+        int km=sc.nextInt();
+        int l=sc.nextInt();
+        float  v1=(float)(km/l)*100;
+        float  v2=(float)(km*0.6214);
+        float  v3=(float)(l*0.2642);
+        float  v4=(float)(v2/v3);
+        System.out.println("Liters/100KM");
+        System.out.print(v1);
+        System.out.println("Miles/gallons \n");
+        System.out.print(v4);
+        
+        if()
+            System.out.println("Invalid Input");
+    }
+}
